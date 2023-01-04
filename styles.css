@@ -1,8 +1,25 @@
 header {
     background-color: white;
-    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem;
 }
 
-nav div img {
+nav {
+    display: grid;
+    margin-top: 1rem;
+}
+
+nav a {
+    display: flexbox;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.search-bar {
+    display: inline;
+}
+
+.search-bar img{
     width: 22px;
 }
