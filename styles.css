@@ -113,6 +113,7 @@ main .hook .img-text-b {
 
 main .about_section {
     margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 main .about_section .about-heading h1{
@@ -125,4 +126,31 @@ main .about_section .about-heading hr {
     width: 55%;
     margin-top: 1rem;
     border-bottom: 4px solid black;
+}
+
+main .about_section .about-content {
+    display: inline-flex;
+}
+
+main .about_section .about-content1 {
+    margin-top: 4.5rem;
+    margin-left: 4rem;
+}
+
+main .about_section .about-content2 {
+    display: flex;
+    margin-left: 5rem;
+}
+
+main .about_section .about-left-img  img{
+    width: 25rem;
+    float: left;
+    margin-top: 4.5rem;
+}
+
+main .about_section .about-right-img img{
+    width: 40rem;
+    float: right;
+    transform: rotateY(180deg);
+    margin-top: -26rem;
 }
