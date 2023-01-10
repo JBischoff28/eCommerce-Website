@@ -73,13 +73,6 @@ nav ul li a {
     color: black
 }
 
-.nav-underline {
-    width: 100%;
-    border-bottom: 4px solid black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
 
 main .hook img {
     position: relative;
@@ -114,43 +107,153 @@ main .hook .img-text-b {
 main .about_section {
     margin-left: 8rem;
     margin-right: 8rem;
+    margin-top: 5rem;
 }
 
-main .about_section .about-heading h1{
+main h1{
     font-size: 45px;
-    margin-top: 5rem;
     font-weight: 400;
 }
 
-main .about_section .about-heading hr {
+main hr {
     width: 55%;
     margin-top: 1rem;
     border-bottom: 4px solid black;
 }
 
-main .about_section .about-content {
-    display: inline-flex;
-}
-
 main .about_section .about-content1 {
     margin-top: 4.5rem;
     margin-left: 4rem;
+    font-size: 1.31rem;
 }
 
 main .about_section .about-content2 {
-    display: flex;
-    margin-left: 5rem;
+    font-size: 1.31rem;
+    margin-top: 65px;
 }
 
-main .about_section .about-left-img  img{
+main .about_section .about-content2 .about-text2 {
+    margin-bottom: 45px;
+}
+
+main .about_section .about-left-img  img {
     width: 25rem;
     float: left;
     margin-top: 4.5rem;
+    margin-right: 7rem;
 }
 
-main .about_section .about-right-img img{
-    width: 40rem;
+main .about_section .about-right-img img {
+    width: 35rem;
     float: right;
     transform: rotateY(180deg);
-    margin-top: -26rem;
+    margin-top: -47rem;
+}
+
+main .products_section {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 8rem;
+}
+
+main .products_section .products-content {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-areas: 
+    "top-left top-mid top-right"
+    "mid-left mid mid-right"
+    "bot-left bot-mid bot-right";
+    justify-content: space-between;
+}
+
+main .products_section .products-content ul li img {
+    width: 22rem;
+    height: 20rem;
+}
+
+main .products_section .products-content .asd {
+    margin-left: 92px;
+}
+
+main .products_section .products-content hr {
+    width: 75%;
+    margin-top: 1rem;
+    border-bottom: 4px solid black;
+}
+
+main .products_section .products-content .product-name {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: 450;
+}
+
+main .products_section .products-content .product-disc {
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+main .products_section .products-content .buttons {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+main .products_section .products-content .buttons .dsa {
+    margin-left: 9rem;
+    color: #BF7631;
+}
+
+main .products_section .products-content .buttons .wer {
+    color: #BF7631;
+    text-decoration: underline;
+}
+
+main .products_section .products-content .product-1 {
+    margin-bottom: 10rem;
+}
+
+main .products_section .products-content .product-4 {
+    margin-bottom: 10rem;
+}
+
+main .contact_section {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 8rem;
+}
+
+main .contact_section .contact-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 25px;
+}
+
+main .contact_section .contact-content .field1 {
+    width: 75rem;
+    height: 3rem;
+}
+
+main .contact_section .contact-content .field2 {
+    width: 75rem;
+    height: 12rem;
+}
+
+main .contact_section .contact-content ul button {
+    margin-top: 5rem;
+    float: right;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    background-color: #BF7631;
+    color: white;
+    border: none;
+    margin-bottom: 8rem;
+}
+
+footer {
+    width: 100% auto;
+    height: 10rem;
+    background-color: #BF7631;
 }
