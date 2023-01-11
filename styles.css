@@ -254,6 +254,58 @@ main .contact_section .contact-content ul button {
 
 footer {
     width: 100% auto;
-    height: 10rem;
+    height: 12rem;
     background-color: #BF7631;
+}
+
+footer ul .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul .footer-content li {
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+footer ul .footer-content .footer-logo {
+    display: flex;
+}
+
+footer ul .footer-content li label {
+    font-size: 2rem;
+    height: 1rem;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+footer ul .footer-content li label img {
+    width: 85px;
+}
+
+footer ul .footer-content li img {
+    width: 85px;
+}
+
+footer .fine-print {
+    display: inline-flex;
+    float: right;
+}
+
+footer .fine-print {
+    margin-top: 1rem;
+}
+
+footer .fine-print .tyu {
+    margin-right: 20rem;
+}
+
+footer .fine-print .uyt {
+    margin-right: 10rem;
+}
+
+footer .fine-print .copyright {
+    margin-right: 2rem;
 }
